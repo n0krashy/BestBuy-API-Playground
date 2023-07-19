@@ -64,21 +64,21 @@ Test scripts can be found and run under [java](src%2Ftest%2Fjava) test sources r
     2. Get category by Id, selecting only name and id.
     3. Get invalid category by sending invalid Id
 3. **Query**
-    1. Get all products list
-    2. Get products using pagination
-    3. Get products using partial name
+    1. Get all categories list
+    2. Get categories using pagination
+    3. Get categories using partial name
 
 ### 5. Services
 
 1. **Create**
-    1. Create a valid category
-    2. Create an invalid category by sending an empty json and verifying that the list of required values errors is
+    1. Create a valid service
+    2. Create an invalid service by sending an empty json and verifying that the list of required values errors is
        successfully received.
 2. **Get**
-    1. Get category by Id
-    2. Get category by Id, selecting only name and id.
-    3. Get invalid category by sending invalid Id
+    1. Get service by Id
+    2. Get service by Id, selecting only name and id.
+    3. Get invalid service by sending invalid Id
 3. **Query**
-    1. Get all products list
-    2. Get products using pagination
-    3. Get products using partial name
+    1. Get all services list
+    2. Get services using pagination
+    3. Get services using partial name
